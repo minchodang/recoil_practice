@@ -1,8 +1,8 @@
 import { atom, useRecoilState } from 'recoil';
 import { v1 } from 'uuid';
+import { textState } from '../store/counter';
 
 export default function TextInput(){
-  const textState = atom({ key: `textState`, default: '' });
   const [text, setText] = useRecoilState(textState)
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
