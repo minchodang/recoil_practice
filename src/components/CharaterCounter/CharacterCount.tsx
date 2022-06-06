@@ -1,6 +1,6 @@
 import { atom, selector, useRecoilState, useRecoilValue } from 'recoil'
 import { v1 } from 'uuid'
-import { charCountState, textState } from '../store/counter'
+import { charCountState, textState } from '../../store/Counter/counter'
 
 
 

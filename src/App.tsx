@@ -1,8 +1,8 @@
-import CharacterCounter from './components/CharacterCounter';
+import Router from './Router';
 
 function App() {
   return (
-      <CharacterCounter/>
+      <Router/>
   );
 }
 

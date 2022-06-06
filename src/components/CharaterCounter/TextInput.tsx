@@ -1,6 +1,6 @@
-import { atom, useRecoilState } from 'recoil';
-import { v1 } from 'uuid';
-import { textState } from '../store/counter';
+import { useRecoilState } from 'recoil';
+
+import { textState } from '../../store/Counter/counter';
 
 export default function TextInput(){
   const [text, setText] = useRecoilState(textState)
@@ -16,6 +16,4 @@ export default function TextInput(){
       Echo: {text}
     </div>
   )
-
-
 }
