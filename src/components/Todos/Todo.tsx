@@ -18,7 +18,7 @@ export default function Todo(){
       navigate('/number');
     }
     function next() {
-      navigate('/');
+      navigate('/guest');
     }
 
 
